@@ -4,7 +4,6 @@ from src.core.config.base import FileConfig
 
 
 class EMSForm(ui.Modal, title="Форма"):
-    # tag = ui.TextInput(label="Тег")  # noqa: RUF001
     date = ui.TextInput(label="Дата")
 
     def __init__(self, config: FileConfig) -> None:
